@@ -1,5 +1,5 @@
 .menu-card{
-    background-size:cover;
+    background-size:auto 110%;
     background-position: center;
 
     height: 100%;
@@ -8,8 +8,14 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
     position:relative;
+
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+.menu-card:hover{
+    background-size:auto 100%;
 }
 
 .menu-card:before{
@@ -21,6 +27,12 @@
     right:0;
     background-color: #101524;
     opacity: .5;
+
+    transition: all 0.5s;
+}
+
+.menu-card:hover:before{
+    opacity: .3;
 }
 
 .menu-card .content{
@@ -30,6 +42,40 @@
     z-index: 1;
 }
 
-.menu-card .title{
+.menu-card .content .icon{
+    background: rgba(255,255,255, .2);
+    border-radius: 50%;
+    padding: 15px;
+    width: 80px;
+    height: 80px;
+    position: relative;
+    margin: 30px auto;
+}
+
+.menu-card .content .icon:before{
+    content: '';
+    background-color: rgba(255,255,255, .2);
+    transition: all .2s;
+    position: absolute;
+    top: 50px;
+    bottom: 50px;
+    left: 50px;
+    right: 50px;
+    border-radius: 50%;
+}
+
+.menu-card:hover .content .icon:before{
+    top: -10px;
+    bottom: -10px;
+    left: -10px;
+    right: -10px;
+}
+
+.menu-card .content .title{
     text-transform: uppercase;
+}
+
+.menu-card:not(:hover) .content .subtitle{
+    opacity: 0;
+    transition: all 0.5s;
 }

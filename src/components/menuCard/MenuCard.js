@@ -12,7 +12,9 @@ export function MenuCard(props) {
             className={'menu-card col s12 m' + props.size}
             style={styleSection}>
             <div className="content">
-                <Ionicon icon={props.icon} fontSize="50px" color="white" />
+                <div className="icon">
+                    <Ionicon icon={props.icon} fontSize="50px" color="white" />
+                </div>
                 <h5 className="title">{props.title}</h5>
                 <p className="subtitle">{props.subtitle}</p>
             </div>
