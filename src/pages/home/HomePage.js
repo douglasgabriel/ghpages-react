@@ -10,7 +10,6 @@ import bgCard4 from '../../assets/images/card4-bg.jpg';
 import './homePage.css';
 
 export class HomePage extends React.Component {
-
     render() {
         return (
             <MenuLayout>
@@ -18,28 +17,27 @@ export class HomePage extends React.Component {
                     size="3"
                     backgroundImage={bgCard1}
                     icon="ios-person-outline"
-                    title="About"
-                    subtitle="Somethings about me" />
+                    title="home.about.title"
+                    subtitle="home.about.subtitle" />
                 <MenuCard
                     size="3"
                     backgroundImage={bgCard2}
                     icon="ios-paper-outline"
-                    title="Resume"
-                    subtitle="My professional skills" />
+                    title="home.resume.title"
+                    subtitle="home.resume.subtitle" />
                 <MenuCard
                     size="3"
                     backgroundImage={bgCard3}
                     icon="ios-briefcase-outline"
-                    title="Portfolio"
-                    subtitle="My projects" />
+                    title="home.portfolio.title"
+                    subtitle="home.portfolio.subtitle" />
                 <MenuCard
                     size="3"
                     backgroundImage={bgCard4}
                     icon="ios-chatbubbles-outline"
-                    title="Blog"
-                    subtitle="Systems and life things analist" />
+                    title="home.blog.title"
+                    subtitle="home.blog.subtitle" />
             </MenuLayout>
         )
     }
-
 }
