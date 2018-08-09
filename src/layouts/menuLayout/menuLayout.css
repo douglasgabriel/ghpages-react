@@ -1,3 +1,40 @@
 .menu-layout{
     margin:0;
 }
+
+.menu-layout nav{
+    height: 100%;
+    transition: all .5s ease-in;
+    background-color: #07206a;
+}
+
+.menu-layout.active nav{
+    height: 300px;
+    box-shadow: none;
+}
+
+.menu-layout.active nav .is-active .menu-card{
+    transition: all .3s ease-in;
+    width: 100%;
+    background-size: cover;
+}
+
+.menu-layout.active nav :not(.is-active) .menu-card{
+    display: none;
+}
+
+.menu-layout.active main{
+    position: relative;
+}
+
+.menu-layout.active main:before{
+    content: '';
+    position: absolute;
+    z-index: 1;
+    top: -300px;
+    right: 0;
+    left: 0;
+    border-top: 300px solid transparent;
+    border-right: 50vw solid white;
+    border-left: 50vw solid white;
+}
