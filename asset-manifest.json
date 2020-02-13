@@ -1,8 +1,8 @@
 {
-  "main.css": "static/css/main.dec20013.css",
-  "main.css.map": "static/css/main.dec20013.css.map",
-  "main.js": "static/js/main.b7fef8e0.js",
-  "main.js.map": "static/js/main.b7fef8e0.js.map",
+  "main.css": "static/css/main.40da094e.css",
+  "main.css.map": "static/css/main.40da094e.css.map",
+  "main.js": "static/js/main.168633cc.js",
+  "main.js.map": "static/js/main.168633cc.js.map",
   "static/media/Roboto-Bold.woff": "static/media/Roboto-Bold.eed9aab5.woff",
   "static/media/Roboto-Bold.woff2": "static/media/Roboto-Bold.c0f1e4a4.woff2",
   "static/media/Roboto-Light.woff": "static/media/Roboto-Light.ea36cd9a.woff",
@@ -13,8 +13,8 @@
   "static/media/Roboto-Regular.woff2": "static/media/Roboto-Regular.5136cbe6.woff2",
   "static/media/Roboto-Thin.woff": "static/media/Roboto-Thin.44b78f14.woff",
   "static/media/Roboto-Thin.woff2": "static/media/Roboto-Thin.1f35e6a1.woff2",
-  "static/media/card1-bg.JPG": "static/media/card1-bg.b2bfb8c5.JPG",
-  "static/media/card2-bg.jpg": "static/media/card2-bg.c53ab51d.jpg",
-  "static/media/card3-bg.JPG": "static/media/card3-bg.f376be98.JPG",
-  "static/media/card4-bg.jpg": "static/media/card4-bg.a47c8de9.jpg"
+  "static/media/card1-bg.JPG": "static/media/card1-bg.61d72c81.JPG",
+  "static/media/card2-bg.jpg": "static/media/card2-bg.d24ea24f.jpg",
+  "static/media/card3-bg.JPG": "static/media/card3-bg.f2645519.JPG",
+  "static/media/card4-bg.jpg": "static/media/card4-bg.b852c4cc.jpg"
 }
